@@ -1,25 +1,23 @@
 import React from 'react'
 import logo from '../assets/homeLogo.png'
-import styles from "../styles/Home.module.scss"
+import styles from "../styles/Login.module.scss"
 import center from "../styles/Center.module.scss"
 
 import FlatButton from '../components/FlatButton'
-import FloatingButtons from '../components/FloatingButtons'
 
-export default function Home() {
+export default function Login() {
     return (
         <div className={styles.page}>
             <div className={center.centerContainer}>
-                <div>
+                <div className={styles.wide}>
                     <div>
                         <img src={logo} alt="logo"></img>
                     </div>
                     <div className={styles.text}>
-                        <h1>StockPile.</h1>
-                        <h2>Learn Investing.</h2>
-                        <h3>Life Will Change.</h3>
+                        <h1>Login</h1>
                     </div>
-                    <FloatingButtons />
+
+                    <FlatButton />
                 </div>
             </div>
         </div>

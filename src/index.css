@@ -26,6 +26,10 @@ code {
   background-color: #FFC700;
 }
 
+html, body, #root {
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -33,3 +37,7 @@ code {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+
+.router {
+  height: 100%;
+}

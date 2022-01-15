@@ -5,15 +5,17 @@
     width: 100vw;
 
     img {
+        width: 60vw;
         position: relative;
-        top: -4em;
+        top: -11em;
+        right: -7em;
     }
 }
 
 .text {
     position: relative;
-    top: -5rem;
-    padding-left: 2em;
+    top: -13rem;
+    padding-left: 0em;
     color: black;
     h1 {
         font-weight: 700;
@@ -28,3 +30,12 @@
         font-size: 1.5em;
     }
 }
+
+.wide {
+    width: 85vw;
+}
+
+
+// .type_slot {
+
+// }
