@@ -19,7 +19,12 @@ export default function Home() {
                         <h2>Learn Investing.</h2>
                         <h3>Life Will Change.</h3>
                     </div>
-                    <FloatingButtons />
+                    <FloatingButtons options={
+                        [
+                            { label: "Sign Up", secondary: true },
+                            { label: "Log In", route: "/login" }
+                        ]
+                    } />
                 </div>
             </div>
         </div>

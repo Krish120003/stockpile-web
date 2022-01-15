@@ -2,8 +2,9 @@ import React from 'react'
 import logo from '../assets/homeLogo.png'
 import styles from "../styles/Login.module.scss"
 import center from "../styles/Center.module.scss"
+import formBox from "../styles/FormBox.module.scss"
 
-import FlatButton from '../components/FlatButton'
+import SingleButton from '../components/SingleButton'
 
 export default function Login() {
     return (
@@ -15,11 +16,26 @@ export default function Login() {
                     </div>
                     <div className={styles.text}>
                         <h1>Login</h1>
+                        <form>
+                            <div>
+                                <label>
+                                    <input
+                                        type="email"
+                                        className="form-input"
+                                        name="email"
+                                        placeholder="E-mail"
+                                    //onChange ={updateForm} 
+                                    //value = {form.email}
+                                    />
+                                    <input placeholder="Email" />
+                                    <input placeholder="Password" />
+                                </label>
+                            </div>
+                        </form>
                     </div>
-
-                    <FlatButton />
+                    <SingleButton />
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

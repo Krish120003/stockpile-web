@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from "../styles/FloatingButton.module.scss";
-import FlatButton from './FlatButton';
+import styles from "../styles/SingleButton.module.scss";
+import SingleFlatButton from './SingleFlatButton';
 
 
 export default function FloatingButtons(props) {
     return (
         <div className={styles.main}>
-            <FlatButton label={props.name}></FlatButton>
+            <SingleFlatButton label={props.name}></SingleFlatButton>
         </div>
     )
 }

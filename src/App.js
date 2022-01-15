@@ -7,14 +7,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        {/* <Home /> */}
-        <Route path="/" exact element={<Home />} />
-        <Route path="/Learn" element={<Learn />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/CreatePortfolio" element={<CreatePortfolio />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/Learn" element={<Learn />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/CreatePortfolio" element={<CreatePortfolio />} />
+        </Routes>
+      </Router>
+    </>
   )
 }
