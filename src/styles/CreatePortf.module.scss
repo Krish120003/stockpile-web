@@ -1,0 +1,30 @@
+.page {
+    background-color: white;
+    height: 100%;
+    padding: 1em;
+    width: 100vw;
+
+    img {
+        position: relative;
+        top: -10em;
+    }
+}
+
+.text {
+    position: relative;
+    top: -5rem;
+    padding-left: 1em;
+    color: black;
+    h1 {
+        font-weight: 700;
+        font-size: 2.5em;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 2.5em;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+}

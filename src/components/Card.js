@@ -8,8 +8,8 @@ export default function Card({ src, alt, title, content, width = "331px", height
                 <img src={src} alt={alt} style={{ width: width, height: 'calc{0.5*' + height + '}' }} />
             </div>
             <div classname='body' style={{ width: width, height: 'calc{0.5*' + height + '}' }}>
-                <h2>{title}</h2>
-                <p>{content}</p>
+                <h2>{alt}</h2>
+                <p>{title}</p>
             </div>
         </div>
     )

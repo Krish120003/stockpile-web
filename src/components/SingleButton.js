@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../styles/SingleButton.module.scss";
+import styles from "../styles/FloatingButton.module.scss";
 import SingleFlatButton from './SingleFlatButton';
 
 
